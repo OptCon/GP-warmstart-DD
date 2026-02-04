@@ -1,0 +1,44 @@
+============================GP TRAINING REPORT========================
+kernel_type : ReLU
+version : 2
+depth : 1
+device : cuda:0
+dtype : torch.float32
+epochs : 10
+Nsamp : 4250
+d : 8
+m_latent : 8
+timestamp_start : 2025-12-29T16:14:07
+timestamp_end : 2025-12-29T16:15:34
+training_time : 86.66797009995207
+
+---- Epoch timing ----
+min/median/max per step (s): 2.57537 / 3.29728 / 28.4176
+
+------Step 1---------
+Loss value : -32.438568115234375
+Time taken for step 1 - 28.41761830006726
+Hyperparameters:
+noise_covariance : min=1.00086e-06, median=1.00086e-06, max=1.00086e-06
+mean_constant : min=-0.000879306, median=-0.000481357, max=0.00121436
+outputscale : 0.294062
+weight_var : 0.165992
+bias_var : 1.45944e-05
+------Step 5---------
+Loss value : -32.4578971862793
+Time taken for step 5 - 3.23598979995586
+Hyperparameters:
+noise_covariance : min=1e-06, median=1e-06, max=1e-06
+mean_constant : min=-3.72863e-05, median=-1.03607e-05, max=2.61651e-05
+outputscale : 0.08531
+weight_var : 0.311052
+bias_var : 5.93671e-07
+------Step 10---------
+Loss value : -32.4578971862793
+Time taken for step 10 - 2.5774534998927265
+Hyperparameters:
+noise_covariance : min=1e-06, median=1e-06, max=1e-06
+mean_constant : min=-3.72863e-05, median=-1.03607e-05, max=2.61651e-05
+outputscale : 0.08531
+weight_var : 0.311052
+bias_var : 5.93671e-07

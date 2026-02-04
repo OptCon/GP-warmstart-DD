@@ -1,0 +1,40 @@
+============================GP TRAINING REPORT========================
+kernel_type : Matern12
+version : 3
+device : cuda:0
+dtype : torch.float32
+epochs : 10
+Nsamp : 4250
+d : 8
+m_latent : 8
+timestamp_start : 2026-01-12T10:30:52
+timestamp_end : 2026-01-12T10:32:40
+training_time : 108.08777430001646
+
+---- Epoch timing ----
+min/median/max per step (s): 4.47961 / 4.49752 / 22.0315
+
+------Step 1---------
+Loss value : -14.59017276763916
+Time taken for step 1 - 21.637496300041676
+Hyperparameters:
+noise_covariance : min=1e-06, median=1e-06, max=1e-06
+mean_constant : min=-0.487379, median=0.0410899, max=0.267247
+outputscale : 0.075555
+lengthscale : min=49.2529, median=49.7885, max=50.2541
+------Step 5---------
+Loss value : -15.03145980834961
+Time taken for step 5 - 4.479903500061482
+Hyperparameters:
+noise_covariance : min=1e-06, median=1e-06, max=1e-06
+mean_constant : min=-0.104465, median=-0.0719266, max=0.237886
+outputscale : 5.10974
+lengthscale : min=3852.95, median=3872.03, max=3889.91
+------Step 10---------
+Loss value : -15.03145980834961
+Time taken for step 10 - 4.49265979975462
+Hyperparameters:
+noise_covariance : min=1e-06, median=1e-06, max=1e-06
+mean_constant : min=-0.104465, median=-0.0719266, max=0.237886
+outputscale : 5.10974
+lengthscale : min=3852.95, median=3872.03, max=3889.91

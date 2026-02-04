@@ -1,0 +1,7 @@
+===========================WARMSTART RESULTS:Matern12 Kernel========================================
+Average improvement with Matern12 kernel = 7.36
+Variance of improvement with Matern12 kernel = 1.1503999999999999
+Median improvement with Matern12 kernel = 7.5
+Minimum improvement : 4
+Maximum improvement : 10
+

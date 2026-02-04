@@ -1,0 +1,7 @@
+===========================WARMSTART RESULTS:ReLU Kernel========================================
+Average improvement with ReLU kernel = 75.7
+Variance of improvement with ReLU kernel = 87.61
+Median improvement with ReLU kernel = 75.5
+Minimum improvement : 56
+Maximum improvement : 101
+

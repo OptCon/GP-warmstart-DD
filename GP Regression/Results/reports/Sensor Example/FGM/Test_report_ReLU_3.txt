@@ -1,0 +1,21 @@
+========================================Error on Training Data================================================
+Worst error at sample 3901, dim 3. |err|=3.52351e-05,true output=2.99619, predicted output = 2.99622
+Per-sample L_inf quantiles: median=3.61898e-06, p90=7.78373e-06, p99=1.53384e-05, max=3.52351e-05
+Top-10 worst dual coordinates (dim : worst_abs_err):
+   3: 3.52351e-05
+   1: 2.64976e-05
+   5: 2.6146e-05
+   2: 1.70259e-05
+   4: 1.21799e-05
+   0: 1.0797e-05
+
+========================================Error on Testing Data================================================
+Worst error at sample 547, dim 3. |err|=0.000162486,true output=7.13881, predicted output = 7.13865
+Per-sample L_inf quantiles: median=3.41862e-05, p90=6.29012e-05, p99=9.08483e-05, max=0.000162486
+Top-10 worst dual coordinates (dim : worst_abs_err):
+   3: 0.000162486
+   1: 0.000114727
+   5: 9.40646e-05
+   4: 4.91041e-05
+   2: 4.54221e-05
+   0: 4.09978e-05
